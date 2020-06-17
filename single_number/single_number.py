@@ -4,9 +4,12 @@ Returns: an integer
 '''
 def single_number(arr):
     result = 0
-    for i in arr:
-        result ^= i
+    for num in arr:
+        # XOR (exclusive OR) returns the result of two integers
+        result ^= num
+    # result will equal the single number
     return result
+
 
 if __name__ == '__main__':
     # Use the main function to test your implementation
