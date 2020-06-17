@@ -4,7 +4,9 @@ Returns: an integer
 '''
 def single_number(arr):
     # Your code here
-
+    # Given an arr - assume there will always a single int 
+    # 
+    #   
     pass
 
 
